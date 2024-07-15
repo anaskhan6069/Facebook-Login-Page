@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+} 
+
+.header{
+    height: 70px;
+    /* background-color: rgb(53, 71, 150); */
+    background-color: rgb(45, 76, 214);
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    align-self: center;
+    top: 74px;
+    height: 50px;
+    background-color: rgb(27, 25, 38);
+    /* margin-top: 460px; */
+    text-align: center;
+    padding: 10px;
+}
+.footer .madeWith{
+    margin-bottom: 4px;
+}
+.facebook{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 8px;   
+    display: inline-block;
+    /* margin: 8px; */
+}
+
+.logo{
+    position: relative;
+    top: 6px;
+    height: 40px;
+    padding: 5;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.login-signup{
+    color: rgb(0, 47, 255);
+    margin-top: 5px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 180px;
+}
+.login-page{
+    height: 350px;
+    width: 440px;
+    position: relative;
+    left: 850px;
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    background-color: rgb(224, 224, 233);
+    border: 2px solid rgb(153, 149, 149);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.input-field{
+    height: 40px;
+    width: 400px;
+    margin: 15px;
+    font-size: 17px;
+    font-family: 'arial', sans-serif;
+    padding: 5px;
+    /* margin-left: 14px; 
+    margin-top: 15px; */
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: black;
+}
+hr{
+    position: relative;
+    width: 335px;
+    left: 50px;
+    top: 10px;
+}
+.new-account-button{
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(23, 207, 23);
+    text-align: center;
+    position: relative;
+    top: 16px;
+    left: 112px;
+}
+.recent{
+    position: fixed;
+    top: 120px;
+    left: 150px;
+    color: black;
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+}
+.click{
+    position: fixed;
+    top: 160px;
+    left: 150px;
+    color: black;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+}
+#pic-box{
+    position: fixed;
+    top: 230px;
+    left: 150px;
+    height: 190px;
+    width: 160px;
+    background-color: rgb(247, 243, 243);
+    border-radius: 10px;
+    border: 1.5px solid rgb(192, 187, 187);
+}
+#add-account{
+    position: fixed;
+    top: 230px;
+    left: 340px;
+    height: 190px;
+    width: 160px;
+    background-color: rgb(247, 243, 243);
+    border-radius: 10px;
+    border: 1.5px solid rgb(192, 187, 187);
+}
+.img{
+    height: 150px;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+    left: 11px;
+}
+.img2{
+    position: relative;
+    top: 60px;
+    left: 58px;
+    height: 40px;
+}
+#text{
+    position: absolute;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    bottom: 5px;
+    left: 35px;
+    font-weight: 400;
+}
+#add{
+    position: absolute;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 0, 255);
+    bottom: 1px;
+    left: px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-end-end-radius: 10px;
+}
+button{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    background-color: rgb(0, 60, 255);
+    padding: 10px;
+    width: 195px;
+    height: 50px;
+    border: none;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+#b2{
+    margin-left: 0px;
+}
+button:hover{
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7)
+}
+#pic-box:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#add-account:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;    
+}
+
+.new-account-button:hover{
+    background-color: rgb(18, 179, 18);
+}
+
+
+
+
+
+
+
+/* Create New Account */
+.container{
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(218, 215, 215);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    top: 20px;
+    left: 510px;
+    height: 430px;
+    width: 350px;
+}
+.container p{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    color: black;
+    /*  font-family: 'Baloo Bhaijaan 2', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 25px;
+    font-weight:600    
+}
+.container #create-account{
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+    top: 12px;
+    font-size: 15px;
+}
+#hr{
+    width: 340px;
+    top: 30px;
+    left: 5px;
+}
+.name{
+    position: relative;
+    width: 151px;
+    margin: 2px;
+    font-size: 13px;
+    top: 45px;
+    height: 25px;
+    left: 8px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 182, 182);
+    color: black;
+}
+.email-input{
+    width: 320px;
+    top: 55px;        
+}
+.password-input{
+    width: 320px;
+    top: 65px;        
+}
+#date-of-birth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    top: 74px;
+    left: 11px;
+}
+.select{
+    top: 75px;
+    width: 104px;
+    height: 28px;
+}
+option{
+    color: black;
+}
+#gender-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    top: 84px;
+    left: 11px;
+}
+/* .radio-container{
+    display: inline-block;
+    height: 26px;
+    padding: 1px;   
+    top: 85px;
+    width: 98px;
+} */
+.label, .radio-container{
+    display: inline-block;
+    height: 26px;
+    padding: 1px;   
+    top: 85px;
+    width: 98px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+.label{
+    position: relative;
+    top: 2px;
+}
+.radio1{
+    position: relative;
+    left: 76px;
+    height: 15px;
+    top: 2.5px;
+}
+.radio2{
+    position: relative;
+    left: 76px;
+    height: 15px;
+    top: 3px;
+}
+.radio3{
+    position: relative;
+    left: 76px;
+    height: 15px;
+    top: 3px;
+}
+#p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 9px;
+    top: 92px;
+    left: 8px;
+    width: 340px;
+    line-height: 12px;
+    /* font-weight: 100; */
+}
+#sign-up-button{
+    font-weight: 600;
+    padding: 1px;
+    height: 35px;
+    width: 150px;
+    top: 89px;
+    left: 90px;
+}
+body {
+    /* Specify the gradient */
+    background: linear-gradient(to bottom, #c4c3c3, #ffffff, #c4c3c3);
+    /* Optional: Set additional styles */
+    margin: 0;
+    padding: 0;
+}
+
+
